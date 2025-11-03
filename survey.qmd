@@ -27,7 +27,7 @@ required-questions:
 library(surveydown)
 ```
 
-::: {.sd_page id=welcome}
+--- welcome
 
 # Template - Reactive Questions
 
@@ -48,9 +48,7 @@ sd_output(id = "pet_owner", type = "question")
 sd_next()
 ```
 
-:::
-
-::: {.sd_page id=end}
+--- end
 
 ## End
 
@@ -59,5 +57,3 @@ This is the end of the survey template of reactive questions.
 ```{r}
 sd_close()
 ```
-
-:::
