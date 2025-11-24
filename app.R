@@ -38,10 +38,13 @@ server <- function(input, output, session) {
   observe({
     pet_type <- input$pet_type
 
+    # Only create the question if pet_type has a value
+    req(pet_type)
+
     # Make the question label and options
     label <- glue::glue("Are you a {pet_type} owner?")
     options <- c('yes', 'no')
-    names(options)[1] <- glue::glue("Yes, am a {pet_type} owner")
+    names(options)[1] <- glue::glue("Yes, I am a {pet_type} owner")
     names(options)[2] <- glue::glue("No, I am not a {pet_type} owner")
 
     # Make the question
