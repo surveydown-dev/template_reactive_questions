@@ -36,7 +36,7 @@ ui <- sd_ui()
 
 server <- function(input, output, session) {
   observe({
-    pet_type <- input$pet_type
+    pet_type <- sd_value("pet_type")
 
     # Only create the question if pet_type has a value
     req(pet_type)
@@ -58,7 +58,7 @@ server <- function(input, output, session) {
 
   # Only show the pet_owner question if pet_type is answered
   sd_show_if(
-    !is.null(input$pet_type) ~ "pet_owner"
+    !is.null(sd_value("pet_type")) ~ "pet_owner"
   )
 
   # Run surveydown server and define database
