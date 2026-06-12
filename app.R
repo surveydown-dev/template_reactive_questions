@@ -57,7 +57,7 @@ server <- function(input, output, session) {
 
   # Only show the pet_owner question if pet_type is answered
   sd_show_if(
-    !is.null(sd_value("pet_type")) ~ "pet_owner"
+    sd_is_answered("pet_type") ~ "pet_owner"
   )
 
   # Run surveydown server and define database
