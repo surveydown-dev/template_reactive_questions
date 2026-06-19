@@ -2,7 +2,7 @@ A template for creating reactive survey questions.
 
 ### 🎬 Walkthrough Recording
 
-[![Walkthrough recording](video-thumbnail.jpg)](https://github.com/surveydown-dev/template_reactive_questions/blob/main/video-recording.mp4)
+[![Walkthrough recording](video-thumbnail.png)](https://cdn.jsdelivr.net/gh/surveydown-dev/template_reactive_questions@main/video-recording.mp4)
 
 *Click the image above to play the recording.*
 
