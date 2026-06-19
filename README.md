@@ -1,12 +1,12 @@
+# Template - Reactive Questions
+
 A template for creating reactive survey questions.
 
-### 🎬 Walkthrough Recording
+### See it in action
+
+Watch the **Walkthrough recording:**
 
 [![Walkthrough recording](video-thumbnail.png)](https://cdn.jsdelivr.net/gh/surveydown-dev/template_reactive_questions@main/video-recording.mp4)
-
-### Template page
-
-https://surveydown.org/templates/reactive_questions
 
 ### Create this template
 
@@ -19,6 +19,8 @@ surveydown::sd_create_survey(
 )
 ```
 
-### Documentation
+### Learn more
 
-[Reactivity](https://surveydown.org/docs/reactivity.html) · [Start with a template](https://surveydown.org/docs/getting-started#start-with-a-template)
+- [Template page - Reactive Questions](https://surveydown.org/templates/reactive_questions)
+- [Document page - Reactivity](https://surveydown.org/docs/reactivity.html)
+- [Document page - Start with a template](https://surveydown.org/docs/getting-started#start-with-a-template)
