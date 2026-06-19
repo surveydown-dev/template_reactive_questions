@@ -4,8 +4,6 @@ A template for creating reactive survey questions.
 
 [![Walkthrough recording](video-thumbnail.png)](https://cdn.jsdelivr.net/gh/surveydown-dev/template_reactive_questions@main/video-recording.mp4)
 
-*Click the image above to play the recording.*
-
 ### Template page
 
 https://surveydown.org/templates/reactive_questions
