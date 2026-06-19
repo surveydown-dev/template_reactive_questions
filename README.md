@@ -4,6 +4,10 @@ A template for creating reactive survey questions.
 
 This template has no live online demo. A video walkthrough is provided instead.
 
+<video src="https://github.com/surveydown-dev/template_reactive_questions/raw/main/video-recording.mp4" controls width="100%"></video>
+
+[▶ Watch the walkthrough](https://github.com/surveydown-dev/template_reactive_questions/raw/main/video-recording.mp4)
+
 ### Template page
 
 https://surveydown.org/templates/reactive_questions
